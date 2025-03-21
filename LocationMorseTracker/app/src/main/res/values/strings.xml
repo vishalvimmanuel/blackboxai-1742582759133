@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location Morse Tracker</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="home_location">Home Location</string>
+    <string name="college_location">College Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="enable_periodic_sharing">Enable Periodic Sharing</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="location_permission_required">Location permission is required for tracking</string>
+    <string name="sms_permission_required">SMS permission is required for sending updates</string>
+</resources>
