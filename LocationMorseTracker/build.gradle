@@ -17,6 +17,16 @@ buildscript {
     }
 }
 
-task clean(type: Delete) {
+// Clean task
+tasks.register('clean', Delete) {
     delete rootProject.buildDir
+}
+
+// Set JVM target for all Kotlin compilation tasks
+allprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            jvmTarget = "17"
+        }
+    }
 }
